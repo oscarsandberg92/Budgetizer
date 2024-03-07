@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budgetizer.Api", "Budgetizer.Api\Budgetizer.Api.csproj", "{BE7ACEE0-40F9-435A-9149-BB0C77D777F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Budgetizer.Api", "Budgetizer.Api\Budgetizer.Api.csproj", "{BE7ACEE0-40F9-435A-9149-BB0C77D777F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budgetizer.Entities", "Budgetizer.Entities\Budgetizer.Entities.csproj", "{5EAC33D7-1FD7-43D3-84CE-470F65ADEDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budgetizer.Infrastructure", "Budgetizer.Infrastructure\Budgetizer.Infrastructure.csproj", "{7B92E71D-D413-4D5A-B737-A146885023D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{BE7ACEE0-40F9-435A-9149-BB0C77D777F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE7ACEE0-40F9-435A-9149-BB0C77D777F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE7ACEE0-40F9-435A-9149-BB0C77D777F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAC33D7-1FD7-43D3-84CE-470F65ADEDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAC33D7-1FD7-43D3-84CE-470F65ADEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAC33D7-1FD7-43D3-84CE-470F65ADEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAC33D7-1FD7-43D3-84CE-470F65ADEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B92E71D-D413-4D5A-B737-A146885023D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B92E71D-D413-4D5A-B737-A146885023D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B92E71D-D413-4D5A-B737-A146885023D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B92E71D-D413-4D5A-B737-A146885023D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
